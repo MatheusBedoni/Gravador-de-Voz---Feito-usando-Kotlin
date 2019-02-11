@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/electricviolet"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Record"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="169dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/record"
+        android:layout_centerHorizontal="true"
+        android:text="Stop"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="345dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/stop"
+        android:layout_centerHorizontal="true"
+        android:text="Play"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="259dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
